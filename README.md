@@ -10,6 +10,41 @@ Develop a RESTful API to enable reading of the list of nominees and winners for 
   <li>Get the producer with the longest gap between two consecutive awards, and the one who got two awards the fastest</li>
 </ul>
 
+### JSON example representing a range of rewards
+
+```json
+{
+  "min": [
+    {
+      "producer": "Producer 1",
+      "interval": 1,
+      "previousWin": 2008,
+      "followingWin": 2009
+    },
+    {
+      "producer": "Producer 2",
+      "interval": 1,
+      "previousWin": 2018,
+      "followingWin": 2019
+    }
+  ],
+  "max": [
+    {
+      "producer": "Producer 1",
+      "interval": 99,
+      "previousWin": 1900,
+      "followingWin": 1999
+    },
+    {
+      "producer": "Producer 2",
+      "interval": 99,
+      "previousWin": 2000,
+      "followingWin": 2099
+    }
+  ]
+}
+```
+
 ## Technologies Used
 
 <ul>
