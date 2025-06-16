@@ -50,7 +50,7 @@ Initialize the application as specified in [Step by Step to Run the API](#step-b
 
 <li>
 
-In the browser, put the following [address](http://localhost:8080/h2-console/)
+In the browser, put the following http://localhost:8080/h2-console/
 </li>
 <li>
 Use credentials: User Name: sa, Password: LEAVE BLANK
