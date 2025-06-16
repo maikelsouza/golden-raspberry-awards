@@ -13,7 +13,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/producers/awardInterval",
+					"raw": "http://localhost:8080/api/producers/award-interval",
 					"protocol": "http",
 					"host": [
 						"localhost"

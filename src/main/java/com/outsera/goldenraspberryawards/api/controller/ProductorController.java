@@ -15,7 +15,7 @@ public class ProductorController {
 
     private final ProductorService service;
 
-    @GetMapping("/awardInterval")
+    @GetMapping("/award-interval")
     public ResponseEntity<AwardIntervalDto> findAwardInterval() {
         AwardIntervalDto awardInterval = service.findAwardInterval();
         return ResponseEntity.ok(awardInterval);
