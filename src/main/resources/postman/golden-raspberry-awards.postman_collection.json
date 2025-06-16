@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "bb7bc6b9-d0ec-4e9f-8b65-131c1c5bfdbd",
+		"name": "Golden Raspberry Awards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20322573",
+		"_collection_link": "https://lunar-meadow-692780.postman.co/workspace/Outsera~84831033-4723-4554-b65e-53f7888684dd/collection/20322573-bb7bc6b9-d0ec-4e9f-8b65-131c1c5bfdbd?action=share&source=collection_link&creator=20322573"
+	},
+	"item": [
+		{
+			"name": "Find Award Interval",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/producers/awardInterval",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"producers",
+						"awardInterval"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
