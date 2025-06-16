@@ -2,6 +2,14 @@
 
 Develop a RESTful API to enable reading of the list of nominees and winners for the Worst Picture category of the Golden Raspberry Awards
 
+
+## Requirements
+
+<ul>
+  <li>Read the CSV file of movies and insert the data into a database when starting the application</li>
+  <li>Get the producer with the longest gap between two consecutive awards, and the one who got two awards the fastest</li>
+</ul>
+
 ## Technologies Used
 
 <ul>
