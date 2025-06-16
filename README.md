@@ -56,3 +56,7 @@ In the browser, put the following [address](http://localhost:8080/h2-console/)
 Use credentials: User Name: sa, Password: LEAVE BLANK
 </li>    
 </ul>
+
+### Data Model
+
+![DataBase.svg](dataBase.svg)
