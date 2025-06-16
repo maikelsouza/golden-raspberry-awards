@@ -22,7 +22,7 @@ import java.util.Set;
 
 @Component
 @RequiredArgsConstructor
-public class CvsFile implements ApplicationRunner {
+public class CsvFile implements ApplicationRunner {
 
     private final MovieService movieService;
 
@@ -49,10 +49,10 @@ public class CvsFile implements ApplicationRunner {
 
     private void populeMovieTable(BufferedReader bufferedReader) throws IOException {
         bufferedReader.readLine();
-        String strcurrentline;
-        while ((strcurrentline = bufferedReader.readLine()) != null) {
+        String currentLine;
+        while ((currentLine = bufferedReader.readLine()) != null) {
 
-            String[] parts = strcurrentline.split(";");
+            String[] parts = currentLine.split(";");
             String[] studiosParts = Arrays.stream(parts[2].split(","))
                     .map(String::trim)
                     .toArray(String[]::new);
