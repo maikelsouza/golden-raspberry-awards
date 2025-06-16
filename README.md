@@ -26,6 +26,9 @@ Run the endpoint: http://localhost:8080/api/producers/award-interval -  GET
     </li>
 </ul>
 
+#### Download do File Postman JSON
+[📥 Download JSON](src/main/resources/postman/golden-raspberry-awards.postman_collection.json)
+
 ## CSV File Specification
 
 <ul>
