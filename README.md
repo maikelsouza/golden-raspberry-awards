@@ -1,3 +1,7 @@
+## Objective
+
+Develop a RESTful API to enable reading of the list of nominees and winners for the Worst Picture category of the Golden Raspberry Awards
+
 ## Technologies Used
 
 <ul>
