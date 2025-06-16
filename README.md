@@ -18,7 +18,7 @@ Ensure you have a csv file inside [directory](src/main/resources/data) "src/main
 </li>
 <li> 
       
- Run the class: [GoldenraspberryawardsApplication](src/main/java/com/outsera/goldenraspberryawards/GoldenraspberryawardsApplication.java) "src/main/java/com/outsera/goldenraspberryawards/GoldenraspberryawardsApplication.java"
+ Run the class: [GoldenRaspberryAwardsApplication.java](src/main/java/com/outsera/goldenraspberryawards/GoldenRaspberryAwardsApplication.java) "src/main/java/com/outsera/goldenraspberryawards/GoldenRaspberryAwardsApplication.java"
 </li>
 <li> 
 
