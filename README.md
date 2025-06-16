@@ -12,18 +12,18 @@
 ## Step by Step to Run the API
 
 <ul>
-    <li>  
+<li>  
 
 Ensure you have a csv file inside [directory](src/main/resources/data) "src/main/resources/data" as per the requirements specified [CSV File Specification](#CSV-File-Specification)
-    </li>
-    <li> 
+</li>
+<li> 
       
  Run the class: [GoldenraspberryawardsApplication](src/main/java/com/outsera/goldenraspberryawards/GoldenraspberryawardsApplication.java) "src/main/java/com/outsera/goldenraspberryawards/GoldenraspberryawardsApplication.java"
-    </li>
-    <li> 
+</li>
+<li> 
 
-Run the endpoint: http://localhost:8080/api/producers/award-interval -  GET  
-    </li>
+Run the endpoint: http://localhost:8080/api/producers/award-interval -  GET
+</li>
 </ul>
 
 #### Download do File Postman JSON
@@ -36,4 +36,23 @@ Run the endpoint: http://localhost:8080/api/producers/award-interval -  GET
     <li>The first line should contain the following strings: "year;title;studios;producers;winner" </li>
     <li>The next lines should contain the following example: 1980;Can't Stop the Music;Associated Film Distribution;Allan Carr;yes</li>
     Note: the winner column it is not required
+</ul>
+
+## H2 DataBase
+
+To connect to the database, you need to::
+
+<ul>
+<li>
+
+Initialize the application as specified in [Step by Step to Run the API](#step-by-step-to-run-the-api)
+</li>
+
+<li>
+
+In the browser, put the following [address](http://localhost:8080/h2-console/)
+</li>
+<li>
+Use credentials: User Name: sa, Password: LEAVE BLANK
+</li>    
 </ul>
