@@ -32,7 +32,7 @@ Run the endpoint: http://localhost:8080/api/producers/award-interval -  GET
 ## CSV File Specification
 
 <ul>
-    <li>File name should be movielist.csv</li>
+    <li>File name should be "movielist.csv"</li>
     <li>The first line should contain the following strings: "year;title;studios;producers;winner" </li>
     <li>The next lines should contain the following example: 1980;Can't Stop the Music;Associated Film Distribution;Allan Carr;yes</li>
     Note: the winner column it is not required
