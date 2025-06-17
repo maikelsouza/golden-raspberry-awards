@@ -61,7 +61,7 @@ Develop a RESTful API to enable reading of the list of nominees and winners for 
 <ul>
 <li>  
 
-Ensure you have a csv file inside [directory](src/main/resources/data) "src/main/resources/data" as per the requirements specified [CSV File Specification](#CSV-File-Specification)
+Ensure you have a movielist.csv file inside [directory](src/main/resources/data) "src/main/resources/data" as per the requirements specified [CSV File Specification](#CSV-File-Specification)
 </li>
 <li> 
       
